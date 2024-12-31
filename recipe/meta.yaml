@@ -24,7 +24,7 @@ requirements:
     - python >={{ python_min }}
     - arviz
     - joblib >=1.0.0
-    - jupyter
+    - notebook <=6.4.12
     - matplotlib-base
     - numpy <2.0.0
     - pillow
