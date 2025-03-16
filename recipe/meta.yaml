@@ -1,5 +1,5 @@
 {% set name = "sbi" %}
-{% set version = "0.23.3" %}
+{% set version = "0.24.0" %}
 {% set python_min = "3.9" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/sbi-{{ version }}.tar.gz
-  sha256: 93b65b219f6e97cd03a6c979a144ee4238ed5a41205b0c8ec558d0928a549a62
+  sha256: 86a436bf6ccdfeb04085085e8db07aed2e86dd32c3dc88c5f2c0385fd7c46396
 
 build:
   noarch: python
