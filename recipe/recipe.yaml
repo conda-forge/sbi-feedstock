@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.26.1"
+  version: "0.27.0"
   python_min: "3.10"
 
 package:
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/s/sbi/sbi-${{ version }}.tar.gz
-  sha256: bcdcd9f19318815e8e6314523f23b727b509f02c8e657cf3696c30231d23fc07
+  sha256: 3e59c832d37612bcd308c24207706e7f47250e7471fd15609f08f91e31b0f17c
 
 build:
   number: 0
